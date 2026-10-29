@@ -2,6 +2,7 @@ import React from 'react';
 import FadeIn from '../components/FadeIn';
 import Magnet from '../components/Magnet';
 import ContactButton from '../components/ContactButton';
+import portraitImg from '../assets/portrait.png';
 
 const HeroSection: React.FC = () => {
   return (
@@ -52,7 +53,7 @@ const HeroSection: React.FC = () => {
           inactiveTransition="transform 0.6s ease-in-out"
         >
           <img
-            src="/portrait.png"
+            src={portraitImg}
             alt="Sayan - 3D Creator Portrait"
             className="w-full h-auto"
             style={{ display: 'block' }}
